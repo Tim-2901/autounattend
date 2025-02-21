@@ -1,0 +1,33 @@
+﻿defaults:
+  silent: true
+  accept-package-agreements: true
+  accept-source-agreements: true
+  source: winget
+  scope: machine
+  exact: true
+
+packages:
+  teamspeak:
+    id: TeamSpeakSystems.TeamSpeakClient
+    interactive: true
+
+  firefox:
+    id: Mozilla.Firefox
+
+  valorant:
+    id: RiotGames.Valorant.EU
+    scope: false
+
+  leagueoflegends:
+    id: RiotGames.LeagueOfLegends.EUW
+    scope: false
+
+  discord:
+    id: Discord.Discord
+    scope: false
+
+  steam:
+    id: Valve.Steam
+
+  epicgameslauncher:
+    id: EpicGames.EpicGamesLauncher
