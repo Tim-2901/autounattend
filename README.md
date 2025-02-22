@@ -1,5 +1,5 @@
 ## About
-This repo contains code, that allows you to run a unattended Windows 11 install, with custom Settings as well as preinstalled Programms. This means the only thing you need to do is to boot from your installation medium, after that the windows install as well as package install will run without any user input.
+This repo contains code, that allows you to configure a unattended Windows 11 install, with custom settings as well as preinstalled packages. This means the only thing you need to do is to boot from your installation medium, after that the windows install as well as package installs will run without any user input.
 
 ## Prerequisites
 You need a Windows 11 installation medium. (e.g. download the iso here: https://www.microsoft.com/de-de/software-download/windows11 and then flash a usb stick with rufus: https://rufus.ie/en/). The installation medium needs to have the drive letter D, as some paths are hardcoded as of now.
