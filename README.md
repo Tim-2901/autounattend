@@ -5,7 +5,7 @@ This repo contains code, that allows you to configure a unattended Windows 11 in
 You need a Windows 11 installation medium. (e.g. download the iso here: https://www.microsoft.com/de-de/software-download/windows11 and then flash a usb stick with rufus: https://rufus.ie/en/). The installation medium needs to have the drive letter D, as some paths are hardcoded as of now.
 
 ## Configuration
-### Package Installation with winget
+### Package Installation with winget (preferred)
 1. You can specify packages you want to be installed with winget in the packages.yaml file. This requires the package to be available in the winget repository. You can search for packages here: https://winget.run/. Once you found your package you can add the package to the package.yaml file in the following format:
 ```
 packages:
